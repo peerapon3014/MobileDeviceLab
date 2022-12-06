@@ -1,12 +1,12 @@
 package com.example.myapplication.`My App`
 
 fun main() {
-    val subjectScore = arrayOf(67,52,73,85,42,78)
+    val subjectScore = arrayOf(67,52,73,85,42,7)
     println("There are "+ subjectScore.size+"subject in array.")
 //   calculateGrade(subjectScore)
-    CalculateGPAX(subjectScore)
+    CalculateGPAX1(subjectScore)
 }
-fun CalculateGPAX(scoreArr: Array<Int>){
+fun CalculateGPAX1(scoreArr: Array<Int>){
     var i : Int =1
     var grade : String
     var gpa : Double = 0.0
